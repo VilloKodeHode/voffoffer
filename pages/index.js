@@ -1,38 +1,99 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import PageLayout from "@/components/Utilities/Layout";
-import {
+import ResponsiveH1, {
   StandardH1,
   StandardH2,
+  StandardH3,
   StandardP,
 } from "@/components/Utilities/ResponsiveText";
-
-const inter = Inter({ subsets: ["latin"] });
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <PageLayout gap="gap-24">
-        <section className="grid text-center mt-24 justify-center items-center min-h-[calc(100vh-112px)">
-          <StandardH1>Tittel</StandardH1>
-          <div className="max-w-6xl bg-">
-            <div className="relative z-10">
-              <StandardP className="py-8">
-                Velkommen til vår omfattende informasjonside for hunder! Enten
-                du er en stolt hundeeier, vurderer å skaffe deg en firbent venn,
-                eller bare har en generell interesse for disse fantastiske
-                skapningene, er du kommet til rett sted. Her finner du en verden
-                av kunnskap og tips om alt som angår hunder, fra raser og adferd
-                til helse og trening. Uansett om du er nybegynner eller en
-                erfaren hundekjenner, håper vi at vår informasjon vil være
-                nyttig og inspirerende for deg. Så la oss begynne på reisen med
-                å utforske alt det fantastiske som gjør hunder til våre lojale
-                og elskede følgesvenner.
-              </StandardP>
+    <>
+      <Head>
+        <title>Kjælevenner</title>
+        <meta name="description" content="Informasjonsside om kjæledyr" />
+        <meta
+          name="keywords"
+          content="kjæledyr, hund, katt, pippip, pusekatt, voffoffer, kjælevenner, fugler, husdyr"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="icon" href="/logo/main_logo.png" />
+      </Head>
+      <main>
+        <PageLayout gap="gap-24">
+          <section className="grid pt-12 text-center">
+            <div className="grid gap-8">
+              <ResponsiveH1>Bli kjent med dine kjæledyr!</ResponsiveH1>
+              <div className="max-w-6xl bg-KV-tertiary">
+                <div className="relative z-10 p-6">
+                  <StandardP className="text-white ">
+                    Velkommen til vår omfattende informasjonside for kjæledyr!
+                    Vi forstår viktigheten av å ha et kjæledyr i livet ditt og
+                    ønsker å gi deg den beste veiledningen og kunnskapen for å
+                    sikre at du kan gi dine pelskledde venner et lykkelig og
+                    sunt liv. Uansett om du har en hund, katt, fugl, fisk eller
+                    en annen type kjæledyr, er denne siden dedikert til å gi deg
+                    nyttige tips, råd og informasjon om alt fra stell og
+                    ernæring til trening og oppførsel. Vi er her for å hjelpe
+                    deg med å forstå og ta vare på behovene til kjæledyret ditt,
+                    slik at dere kan nyte et liv fullt av kjærlighet, glede og
+                    harmoni sammen. Så bli med oss og la oss utforske den
+                    fantastiske verdenen av kjæledyr sammen!
+                  </StandardP>
+                </div>
+              </div>
             </div>
-          </div>
-        </section>
-      </PageLayout>
-    </main>
+          </section>
+          <section className="grid gap-8">
+            <StandardH3 className="text-center">
+              Hvilket kjæledyr vil du lese om?
+            </StandardH3>
+            <div className="flex flex-wrap gap-8 md:flex-nowrap">
+              <div className="grid justify-center w-full md:w-1/3">
+                <Link href="/hund" className="grid">
+                  <Image
+                    src="/logo/voffoffer_logo.png"
+                    alt="Image 1"
+                    width={300}
+                    height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
+                  />
+                  <StandardP className="text-center">Hund</StandardP>
+                </Link>
+              </div>
+              <div className="grid justify-center w-full md:w-1/3">
+                <Link href="/katt" className="grid">
+                  <Image
+                    src="/logo/pusekatt_logo.png"
+                    alt="Image 2"
+                    width={300}
+                    height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
+                  />
+                  <StandardP className="self-end text-center">Katt</StandardP>
+                </Link>
+              </div>
+              <div className="grid justify-center w-full md:w-1/3">
+                <Link href="/fugl" className="grid">
+                  <Image
+                    src="/logo/pippipp_logo.png"
+                    alt="Image 3"
+                    width={300}
+                    height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
+                  />
+                  <StandardP className="text-center">Fugl</StandardP>
+                </Link>
+              </div>
+            </div>
+          </section>
+        </PageLayout>
+      </main>
+    </>
   );
 }

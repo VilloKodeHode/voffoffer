@@ -26,12 +26,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        JWC: {
-          primary: "#fda435",
+        KV: {
+          primary: "#13b096",
 
-          secondary: "#65707f",
+          secondary: "#c97286",
 
-          tertiary: "#fafcfc",
+          tertiary: "#28213d",
 
           //font colors:
           black: "#37342e",
