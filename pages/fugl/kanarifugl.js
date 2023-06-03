@@ -36,7 +36,7 @@ export default function Undulat() {
               <ResponsiveH1>Bli kjent med din Kanarifugl</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Kanarifugler er små, fargerike og melodiøse fugler som gjør
                     fantastiske kjæledyr. Med deres vakre sang og levende
                     personligheter kan de lyse opp ethvert hjem.
@@ -49,7 +49,7 @@ export default function Undulat() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Kanarifugler er kjent for sin vakre og melodiske sang.
                     Hanner har spesielt imponerende sangferdigheter og kan synge
                     i forskjellige toner og mønstre. Deres søte og beroligende
@@ -58,7 +58,7 @@ export default function Undulat() {
                     mye eller like godt, da sangen deres også kan påvirkes av
                     individuelle forskjeller og miljøet de er i.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Disse fuglene er relativt enkle å ta vare på og trenger ikke
                     så mye plass som større fugler. De kan trives i mindre bur
                     eller voliere, men det er viktig at de har nok plass til å
@@ -67,7 +67,7 @@ export default function Undulat() {
                     kan glede seg over små leker og gjenstander som gir
                     stimulering og underholdning.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Når det gjelder ernæring, bør kanarifugler få et godt
                     kvalitetsfôr spesifikt utviklet for deres behov. Dette kan
                     inkludere frøblandinger, pellets og ferske frukt- og
@@ -76,7 +76,7 @@ export default function Undulat() {
                     å være mer frøavhengige, så det er viktig å sørge for
                     variasjon og supplere med andre næringsrike matvarer.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Kanarifugler er generelt sett ikke så sosiale som andre
                     fugler og er vanligvis fornøyde med å være alene. Imidlertid
                     kan de likevel nyte sosial interaksjon med eierne sine,
@@ -85,7 +85,7 @@ export default function Undulat() {
                     tid nær buret deres for å opprettholde et positivt og
                     kjærlig forhold.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Enten du allerede har en kanarifugl eller vurderer å skaffe
                     deg en, ønsker vi å være en pålitelig kilde til informasjon
                     og veiledning for deg. Vår visjon er å hjelpe deg med å

@@ -36,7 +36,7 @@ export default function GoldenRetriever() {
               <ResponsiveH1>Bli kjent med din Golden Retriever</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Golden retrievere er kjent for sin elskelige natur,
                     intelligens og allsidighet, og vi ønsker å gi deg all
                     nødvendig informasjon om denne fantastiske rasen.
@@ -49,20 +49,20 @@ export default function GoldenRetriever() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Golden retrievere er kjent for sitt vennlige og tillitsfulle
                     vesen. De er kjærlige og hengivne følgesvenner som elsker å
                     tilbringe tid sammen med familien sin. Denne rasen er også
                     svært intelligent og lærevillig, noe som gjør dem til en
                     utmerket kandidat for trening og lydighet.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Golden retrievere er også kjent for sin allsidighet og evne
                     til å trives i ulike aktiviteter. Enten det er agility,
                     sporarbeid, redningstjeneste eller enkle leker i hagen, er
                     Golden retrieveren en entusiastisk deltaker.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Uansett om du allerede er en stolt eier av en Golden
                     retriever eller vurderer å skaffe deg en, ønsker vi å være
                     en pålitelig kilde til informasjon for deg. Vår side er

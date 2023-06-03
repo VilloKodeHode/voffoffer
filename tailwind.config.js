@@ -31,7 +31,7 @@ module.exports = {
 
           secondary: "#c97286",
 
-          tertiary: "#28213d",
+          tertiary: "#7fc5b0",
 
           //font colors:
           black: "#37342e",

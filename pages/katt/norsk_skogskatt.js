@@ -32,7 +32,7 @@ export default function NorskSkogskatt() {
               <ResponsiveH1>Bli kjent med din Norske skogskatt</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Norsk skogskatt er en vakker og majestetisk rase med røtter
                     som strekker seg tilbake i tid.
                   </StandardH4>
@@ -44,7 +44,7 @@ export default function NorskSkogskatt() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Norsk skogskatt er kjent for sin imponerende pels, store
                     størrelse og en karakteristisk ``Viking-look`` med tuftede
                     ører og buskete hale. Men det er ikke bare utseendet som
@@ -54,7 +54,7 @@ export default function NorskSkogskatt() {
                     skogene i Norge, der den tilpasset seg det kalde klimaet og
                     de utfordrende forholdene.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     På vår informasjonsside vil du lære om Norsk skogskatts
                     temperament, adferd og hva som gjør dem så unike som
                     katteraser. Norsk skogskatt er kjent for å være gode
@@ -62,7 +62,7 @@ export default function NorskSkogskatt() {
                     hjemmemiljø. De er sosiale og knytter ofte sterke bånd til
                     sine eiere.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Norsk skogskatter er også kjent for sin atletiske evne og
                     naturlige jaktinstinkt. De elsker å utforske og klatre, og
                     de trives spesielt godt utendørs.

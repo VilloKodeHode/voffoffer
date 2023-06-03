@@ -35,7 +35,7 @@ export default function BernerSennen() {
               <ResponsiveH1>Bli kjent med din Berner Sennen</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Berner Sennen-hunden er en majestetisk og vennlig rase som
                     har erobret hjertene til hundeeiere over hele verden.
                   </StandardH4>
@@ -47,14 +47,14 @@ export default function BernerSennen() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Berner Sennen-hunden er kjent for sitt imponerende utseende
                     med sitt karakteristiske trekantete hode, sjenerøse pels og
                     kraftige kropp. Men det er ikke bare utseendet som gjør dem
                     unike. Disse hundene har en herlig personlighet som er
                     kjærlig, trofast og mild.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Berner Sennen-hunder er utmerkede familiehunder og trives
                     godt i et kjærlig og omsorgsfullt hjemmemiljø. De er svært
                     sosiale og elsker å være en del av familien sin, i tillegg
@@ -64,7 +64,7 @@ export default function BernerSennen() {
                     har også en naturlig trang til å arbeide, og de kan trives
                     godt i aktiviteter som trekk, lydighet og besøksterapi.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Enten du allerede er en stolt eier av en Berner Sennen eller
                     vurderer å skaffe deg en, håper vi at vår informasjonsside
                     vil være en verdifull ressurs for deg. Vår visjon er å gi

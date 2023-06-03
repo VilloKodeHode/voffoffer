@@ -30,7 +30,7 @@ export default function Hundeside() {
               <ResponsiveH1>Bli kjent med din hund</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Velkommen til vår informasjonside dedikert til hunder! Enten
                     du er en stolt hundeeier, vurderer å skaffe deg en ny
                     følgesvenn, eller bare har en generell interesse for hunder,
@@ -38,7 +38,7 @@ export default function Hundeside() {
                     omfattende og pålitelig informasjon om alle aspekter ved å
                     ha en hund i livet ditt.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Vi forstår at hunder er mer enn bare kjæledyr - de er
                     familiemedlemmer og lojale venner. Derfor er det viktig å gi
                     dem den omsorgen og oppmerksomheten de fortjener. På vår
@@ -51,7 +51,7 @@ export default function Hundeside() {
                     med å ta en informert beslutning når du velger den perfekte
                     hunden for deg.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Å holde hunden din sunn og lykkelig er også av stor
                     betydning. Vår side gir deg informasjon om riktig kosthold
                     og ernæring, vanlige helseproblemer og forebyggende tiltak,
@@ -61,7 +61,7 @@ export default function Hundeside() {
                     trene hunden din, håndtere uønsket adferd og skape et sterkt
                     bånd basert på tillit og forståelse.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Uansett om du er en erfaren hundeeier eller nybegynner,
                     håper vi at vår informasjonside vil være en verdifull
                     ressurs for deg. Vår visjon er å gi deg den kunnskapen du
@@ -85,7 +85,7 @@ export default function Hundeside() {
                     alt="golden retriever puppy"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">
                     Golden Retriever
@@ -99,7 +99,7 @@ export default function Hundeside() {
                     alt="jack russel puppy"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">
                     Jack Russel Terrier
@@ -113,6 +113,7 @@ export default function Hundeside() {
                     alt="berner sennen puppy"
                     width={300}
                     height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Berner Sennen</StandardP>
                 </Link>

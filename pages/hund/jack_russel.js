@@ -34,7 +34,7 @@ export default function JackRusselTerrier() {
               <ResponsiveH1>Bli kjent med din Jack Russel Terrier</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Jack Russell terrieren er en energisk og livlig hunderase
                     som har fanget hjertene til mange hundeeiere over hele
                     verden.
@@ -47,7 +47,7 @@ export default function JackRusselTerrier() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Jack Russell terrieren er kjent for sin intelligens,
                     utholdenhet og eventyrlyst. Den er en modig og aktiv hund
                     som elsker å være i bevegelse og delta i forskjellige
@@ -55,12 +55,12 @@ export default function JackRusselTerrier() {
                     lærevillig, noe som gjør dem godt egnet for ulike typer
                     trening.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Jack Russell terriere er kjent for sin allsidighet og er
                     flinke i forskjellige hundesporter som lydighet, agility og
                     sporarbeid.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Enten du allerede er en stolt eier av en Jack Russell
                     terrier eller vurderer å skaffe deg en, ønsker vi å være en
                     pålitelig kilde til informasjon for deg. Vår side er

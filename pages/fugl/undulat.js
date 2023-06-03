@@ -36,7 +36,7 @@ export default function Undulat() {
               <ResponsiveH1>Bli kjent med din Undulat</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Undulater er sjarmerende og livlige fugler som gjør
                     fantastiske kjæledyr. Med sine fargerike fjærdrakt og
                     livlige personligheter er de en fryd å ha i hjemmet.
@@ -49,7 +49,7 @@ export default function Undulat() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Undulater er kjent for sitt sosiale vesen og evne til å
                     danne sterke bånd med sine eiere. De er glade i interaksjon
                     og trives med å delta i familiens aktiviteter. Med riktig
@@ -63,20 +63,20 @@ export default function Undulat() {
                     omgivelser. Leker, grener og annet passende tilbehør kan
                     hjelpe til med å berike miljøet deres.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Når det gjelder ernæring, trenger undulater en balansert
                     diett som inkluderer et godt kvalitetsfôr, friskt vann og et
                     utvalg av frukt, grønnsaker og frø. Det er viktig å være
                     oppmerksom på deres ernæringsbehov og unngå å gi dem mat som
                     kan være skadelig for dem.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     For å sikre undulatens helse og trivsel, er det viktig å gi
                     dem regelmessig veterinærkontroll, inkludert klipping av
                     nebb og klør ved behov. Du bør også overvåke deres generelle
                     velvære og være oppmerksom på tegn på sykdom eller stress.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Enten du allerede har en undulat eller vurderer å skaffe deg
                     en, ønsker vi å være en pålitelig kilde til informasjon og
                     veiledning for deg. Vår visjon er å hjelpe deg med å skape

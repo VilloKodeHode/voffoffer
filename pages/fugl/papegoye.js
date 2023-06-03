@@ -36,7 +36,7 @@ export default function Papegøye() {
               <ResponsiveH1>Bli kjent med din Papegøye</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Papegøyer er en fantastisk type kjæledyr som kan bringe
                     glede og liv til ethvert hjem.
                   </StandardH4>
@@ -48,7 +48,7 @@ export default function Papegøye() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Disse intelligente og sosiale fuglene er kjent for sin evne
                     til å etterligne menneskelig tale og deres fargerike
                     fjærdrakt. Disse fuglene er blant de mest intelligente i
@@ -59,7 +59,7 @@ export default function Papegøye() {
                     utfordringer og interaksjon for å holde dem lykkelige og
                     engasjerte.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Sosial interaksjon er også avgjørende for papegøyer. De er
                     sosiale skapninger som trives i selskap med mennesker og
                     andre fugler. Papegøyer kan utvikle sterke bånd med sine
@@ -67,7 +67,7 @@ export default function Papegøye() {
                     trives best når de blir inkludert i familiens aktiviteter og
                     får muligheten til å utforske utenfor buret sitt.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     En annen viktig faktor å vurdere når man har en papegøye som
                     kjæledyr, er deres fysiske behov. Papegøyer trenger et
                     romslig bur som gir nok plass til å strekke vingene og fly.
@@ -80,7 +80,7 @@ export default function Papegøye() {
                     den lange levetiden deres før du tar et valg om å skaffe en
                     papegøye som kjæledyr.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Enten du allerede har en papegøye eller vurderer å skaffe
                     deg en, ønsker vi å være en pålitelig kilde til informasjon
                     og veiledning for deg. Vår visjon er å bidra til at du og

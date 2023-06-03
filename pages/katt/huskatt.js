@@ -29,7 +29,7 @@ export default function Huskatt() {
               <ResponsiveH1>Bli kjent med din huskatt</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardH4 className="text-white">
+                  <StandardH4 className="text-black">
                     Huskatter er en mangfoldig gruppe av katter som ikke
                     tilhører en spesifikk rase, men heller er et resultat av
                     naturlig avl og kattens tilpasningsevne gjennom tidene.
@@ -42,7 +42,7 @@ export default function Huskatt() {
                       height={200}
                     />
                   </div>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Huskatter kommer i alle former, størrelser og farger, og
                     hvert individ har sin egen unike personlighet. De er kjent
                     for sin tilpasningsevne og evnen til å trives i ulike
@@ -52,7 +52,7 @@ export default function Huskatt() {
                     fantastiske følgesvenner og skape et sterkt bånd med sine
                     eiere.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Som selvstendige jegere har huskatter en naturlig
                     jaktinstinkt og elsker å utforske omgivelsene sine. Vi gir
                     deg råd om hvordan du kan tilrettelegge for et berikende

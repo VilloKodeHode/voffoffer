@@ -30,7 +30,7 @@ export default function Fugleside() {
               <ResponsiveH1>Bli kjent med din fugl</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Velkommen til vår informasjonside dedikert til fugler som
                     kjæledyr! Enten du allerede er en stolt fugleeier, vurderer
                     å adoptere en fjærkledd venn eller bare har en generell
@@ -38,14 +38,14 @@ export default function Fugleside() {
                     designet for å gi deg omfattende og pålitelig informasjon om
                     alt som angår å ha fugler som kjæledyr i hjemmet ditt.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Fugler som kjæledyr er unike og fascinerende skapninger. De
                     har sin egen personlighet, sjarm og intelligens. På vår
                     informasjonside vil du finne en rekke emner som omhandler
                     fugler, inkludert raser, stell, oppførsel, ernæring og mye
                     mer.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Vår informasjonside gir deg råd om riktig kosthold og
                     ernæring, burinnredning, trening og sosialisering. Vi deler
                     også tips om hvordan du kan bygge et sterkt bånd med din
@@ -55,7 +55,7 @@ export default function Fugleside() {
                     deg med å forstå fuglens språk og behov, samt hvordan du kan
                     takle vanlige adferdsutfordringer.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Uansett om du er en erfaren fugleeier eller nybegynner,
                     håper vi at vår informasjonside vil være en verdifull
                     ressurs for deg. Vår visjon er å gi deg den kunnskapen du
@@ -77,7 +77,7 @@ export default function Fugleside() {
                     alt="kanarifugl"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Kanarifugl</StandardP>
                 </Link>
@@ -89,7 +89,7 @@ export default function Fugleside() {
                     alt="pappegøye"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Papegøye</StandardP>
                 </Link>
@@ -101,6 +101,7 @@ export default function Fugleside() {
                     alt="undulat"
                     width={300}
                     height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Undulat</StandardP>
                 </Link>

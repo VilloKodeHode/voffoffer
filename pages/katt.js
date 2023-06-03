@@ -30,7 +30,7 @@ export default function Katteside() {
               <ResponsiveH1>Bli kjent med din katt</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 grid gap-8 p-6">
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Velkommen til vår informasjonside dedikert til katter! Enten
                     du er en stolt katteeier, tenker på å adoptere en ny
                     pelsball eller bare har en generell interesse for katter,
@@ -38,7 +38,7 @@ export default function Katteside() {
                     deg grundig og pålitelig informasjon om alle aspekter ved å
                     ha en katt som en del av familien din.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Vi forstår at katter er mer enn bare kjæledyr - de er
                     hengivne følgesvenner og elskede familiemedlemmer. Derfor er
                     det viktig å gi dem omsorg og oppmerksomhet for å sikre at
@@ -52,7 +52,7 @@ export default function Katteside() {
                     en informert beslutning når du velger den perfekte katten
                     for deg.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Vi er også opptatt av å sikre at katten din har et sunt og
                     balansert kosthold. Vår side gir deg informasjon om riktig
                     ernæring, vanlige helseproblemer, og forebyggende tiltak for
@@ -62,7 +62,7 @@ export default function Katteside() {
                     underholde katten din, samt håndtere vanlige
                     adferdsutfordringer.
                   </StandardP>
-                  <StandardP className="text-white">
+                  <StandardP className="text-black">
                     Uansett om du er en erfaren katteeier eller nybegynner,
                     håper vi at vår informasjonside vil være en verdifull
                     ressurs for deg. Vårt mål er å gi deg den kunnskapen du
@@ -86,7 +86,7 @@ export default function Katteside() {
                     alt="norsk skogskatt"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Norsk skogskatt</StandardP>
                 </Link>
@@ -98,7 +98,7 @@ export default function Katteside() {
                     alt="Huskatt"
                     width={300}
                     height={200}
-                    className="mb-4 md:mb-0"
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Huskatt</StandardP>
                 </Link>
@@ -110,6 +110,7 @@ export default function Katteside() {
                     alt="Hellig Birma"
                     width={300}
                     height={200}
+                    className="mb-4 duration-200 md:mb-0 hover:scale-105"
                   />
                   <StandardP className="text-center">Hellig Birma</StandardP>
                 </Link>

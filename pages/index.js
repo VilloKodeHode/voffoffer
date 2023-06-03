@@ -10,6 +10,8 @@ import ResponsiveH1, {
 import Head from "next/head";
 import Link from "next/link";
 
+//TODO: add activeLink to indexPage Hund/katt/fugl buttons on the page
+
 export default function Home() {
   return (
     <>
@@ -31,7 +33,7 @@ export default function Home() {
               <ResponsiveH1>Bli kjent med dine kjæledyr!</ResponsiveH1>
               <div className="max-w-6xl bg-KV-tertiary">
                 <div className="relative z-10 p-6">
-                  <StandardP className="text-white ">
+                  <StandardP className="text-black ">
                     Velkommen til vår omfattende informasjonside for kjæledyr!
                     Vi forstår viktigheten av å ha et kjæledyr i livet ditt og
                     ønsker å gi deg den beste veiledningen og kunnskapen for å
@@ -57,8 +59,8 @@ export default function Home() {
               <div className="grid justify-center w-full md:w-1/3">
                 <Link href="/hund" className="grid">
                   <Image
-                    src="/logo/voffoffer_logo.png"
-                    alt="Image 1"
+                    src="/dogs/voffoffer_logo.png"
+                    alt="Kjælevenner logo"
                     width={300}
                     height={200}
                     className="mb-4 duration-200 md:mb-0 hover:scale-105"
@@ -69,7 +71,7 @@ export default function Home() {
               <div className="grid justify-center w-full md:w-1/3">
                 <Link href="/katt" className="grid">
                   <Image
-                    src="/logo/pusekatt_logo.png"
+                    src="/cats/pusekatt_logo.png"
                     alt="Image 2"
                     width={300}
                     height={200}
@@ -81,7 +83,7 @@ export default function Home() {
               <div className="grid justify-center w-full md:w-1/3">
                 <Link href="/fugl" className="grid">
                   <Image
-                    src="/logo/pippipp_logo.png"
+                    src="/birds/pippipp_logo.png"
                     alt="Image 3"
                     width={300}
                     height={200}
