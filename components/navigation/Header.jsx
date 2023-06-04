@@ -13,8 +13,7 @@ import {
   StandardH3,
 } from "../Utilities/ResponsiveText";
 
-export default function Header() {
-  const [activeLink, setActiveLink] = useState("");
+export default function Header({ activeLink, setActiveLink }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const handleImageClick = () => {
     activeLink && setActiveLink("");

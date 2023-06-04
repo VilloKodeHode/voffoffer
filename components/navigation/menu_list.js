@@ -1,9 +1,9 @@
 // This file contains the menu list for the navigation drawer
 
 export const MENU_LIST = [
-  { text: "Voffoffer", href: "/hund", icon: "/dogs/voffoffer_logo.png" },
-  { text: "Pusekatter", href: "/katt", icon: "/cats/pusekatt_logo.png" },
-  { text: "Pippipper", href: "/fugl", icon: "/birds/pippipp_logo.png" },
+  { text: "Hund", href: "/hund", icon: "/dogs/voffoffer_logo.png" },
+  { text: "Katt", href: "/katt", icon: "/cats/pusekatt_logo.png" },
+  { text: "Fugl", href: "/fugl", icon: "/birds/pippipp_logo.png" },
 ];
 
 export const LOGO = [

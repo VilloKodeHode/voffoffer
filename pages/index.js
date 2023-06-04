@@ -2,17 +2,13 @@ import Image from 'next/image'
 
 import PageLayout from "@/components/Utilities/Layout";
 import ResponsiveH1, {
-  StandardH1,
-  StandardH2,
   StandardH3,
   StandardP,
 } from "@/components/Utilities/ResponsiveText";
 import Head from "next/head";
 import Link from "next/link";
 
-//TODO: add activeLink to indexPage Hund/katt/fugl buttons on the page
-
-export default function Home() {
+export default function Home({ setActiveLink }) {
   return (
     <>
       <Head>
@@ -57,7 +53,13 @@ export default function Home() {
             </StandardH3>
             <div className="flex flex-wrap gap-8 md:flex-nowrap">
               <div className="grid justify-center w-full md:w-1/3">
-                <Link href="/hund" className="grid">
+                <Link
+                  href="/hund"
+                  className="grid"
+                  onClick={() => {
+                    setActiveLink("Hund");
+                  }}
+                >
                   <Image
                     src="/dogs/voffoffer_logo.png"
                     alt="Kjælevenner logo"
@@ -69,7 +71,13 @@ export default function Home() {
                 </Link>
               </div>
               <div className="grid justify-center w-full md:w-1/3">
-                <Link href="/katt" className="grid">
+                <Link
+                  href="/katt"
+                  className="grid"
+                  onClick={() => {
+                    setActiveLink("Katt");
+                  }}
+                >
                   <Image
                     src="/cats/pusekatt_logo.png"
                     alt="Image 2"
@@ -81,7 +89,13 @@ export default function Home() {
                 </Link>
               </div>
               <div className="grid justify-center w-full md:w-1/3">
-                <Link href="/fugl" className="grid">
+                <Link
+                  href="/fugl"
+                  className="grid"
+                  onClick={() => {
+                    setActiveLink("Fugl");
+                  }}
+                >
                   <Image
                     src="/birds/pippipp_logo.png"
                     alt="Image 3"

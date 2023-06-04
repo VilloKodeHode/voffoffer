@@ -83,6 +83,7 @@ module.exports = {
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],
         Lato: ["Lato", "sans-serif"],
+        Figtree: ["Figtree", "sans-serif"],
       },
 
       keyframes: {
