@@ -14,9 +14,9 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row">
               <div className="flex flex-row items-center justify-center m-4">
-                <Link href="/contact">
+                <a href="https://www.jvwebconsult.no/contact" target="_blank">
                   <FiMail className="w-8 h-8 mr-4 text-white duration-200 hover:text-KV-secondary hover:scale-125" />
-                </Link>
+                </a>
               </div>
               <div className="flex flex-row items-center justify-center m-4">
                 <a href="https://github.com/VilloKodeHode" target="_blank">

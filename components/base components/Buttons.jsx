@@ -5,7 +5,7 @@ export default function NormalButton({ children, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="grid items-center w-full px-10 py-4 font-semibold text-black uppercase duration-100 ease-in-out rounded-md shadow-md active:scale-95 text-p font-Roboto shadow-KV-tertiary bg-gradient-to-r hover:scale-105 from-KV-primary via-KV-tertiary to-KV-secondary"
+      className="grid items-center w-full px-10 py-4 font-semibold uppercase duration-100 ease-in-out rounded-md shadow-md text-[#261e36] active:scale-95 text-p font-Roboto shadow-KV-tertiary bg-KV-secondary hover:scale-105"
     >
       <>{children}</>
     </button>
